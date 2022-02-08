@@ -1,4 +1,4 @@
-## Dragon List Plan
+# Dragon List Plan
 
 1. create application that links details of each dragon to a home page.
 2. incorporate findById search function (util.js).
@@ -15,6 +15,7 @@
 7. add utils.js file and set up findById function. export.
 8. add renderutils.js file for pure renderDragon function. const dragons =findById
 9. import data and functions and set new URLSearchParams in dragons.js.
-10. CSS it up!- add dragon css file.
+10. Test pure functions (render)
+11. CSS it up!- add dragon css file.
 
 console log throughout to ensure each aspect is functioning correctly
