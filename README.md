@@ -13,9 +13,8 @@
 5. create data file and add listed of objects to it. Pull from goblin-fighter (dragons).
 6. import and grab DOM elements on primary app.js file.
 7. add utils.js file and set up findById function. export.
-8. add renderutils.js file for pure renderDragon function. const dragons =findById
+8. write test, add renderutils.js file for pure renderDragon function. test function const dragons=findById
 9. import data and functions and set new URLSearchParams in dragons.js.
-10. Test pure functions (render)
-11. CSS it up!- add dragon css file.
+10. CSS it up!- add dragon css file.
 
 console log throughout to ensure each aspect is functioning correctly
