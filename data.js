@@ -4,8 +4,8 @@ export const dragons = [
         name: 'Fireball',
         // type: 'green',
         age: 5,
-        ability: 'can fly around the world in 3 days',
-        weakness: 'has really bad eyesight',
+        ability: 'can fly around the world in 3 days!',
+        weakness: 'has really bad eyesight.',
         image: './assets/fireball.png',
     },
     {
@@ -13,8 +13,8 @@ export const dragons = [
         name: 'Scales',
         // type: 'red',
         age: 15,
-        ability: 'scaly armor is impenetrable',
-        weakness: 'poor hygiene practices',
+        ability: 'scaly armor is impenetrable!',
+        weakness: 'poor hygiene practices.',
         image: './assets/scales.png',
     },
     {
@@ -22,8 +22,8 @@ export const dragons = [
         name: 'Patty',
         // type: 'pink',
         age: 105,
-        ability: 'breath is so hot it could destroy anything in her way',
-        weakness: 'eats too many sweets',
+        ability: 'breath is so hot it could destroy anything in her way!',
+        weakness: 'eats too many sweets.',
         image: './assets/patty.png',
     },
 ];

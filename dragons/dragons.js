@@ -16,7 +16,7 @@ const dragon = findById(params.get('id'), dragons);
 // console.log(dragon);
 
 dragonName.textContent = dragon.name;
-dragonAge.textContent = `Age ${dragon.age}`;
-dragonAbility.textContent = dragon.ability;
-dragonWeakness.textContent = dragon.weakness;
+dragonAge.textContent = `Age: ${dragon.age}`;
+dragonAbility.textContent = `Ability: ${dragon.ability}`;
+dragonWeakness.textContent = `Weakness: ${dragon.weakness}`;
 dragonImage.src = `.${dragon.image}`;

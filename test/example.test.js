@@ -6,11 +6,7 @@ const test = QUnit.test;
 test('test should return <li> with dragon info', (expect) => {
     //Arrange
     // Set up your arguments and expectations
-    const expected = `<ul id="details-list"></ul>
-    <h1 id="dragon-name"></h1>
-    <p id="dragon-age"></p>
-    <p id="dragon-ability"></p>
-    <p id="dragon-weakness"></p>`;
+    const expected = `<li><a href="/dragons/?id=1">Fireball</a><img src="./assets/fireball.png"></li>`;
 
     //Act
     // Call the function you're testing and set the result to a const

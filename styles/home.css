@@ -1,1 +1,4 @@
-/* add home page styles here */
+/* ad home page styles here */
+main {
+    flex-direction: column;
+}
