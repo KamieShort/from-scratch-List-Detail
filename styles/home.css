@@ -6,17 +6,20 @@ body {
     /* min-height: 500px; */
     background-position: center;
     min-height: 1000px;
-    min
     background-repeat: no-repeat;
     margin-top: 0px;
+    padding-left: 150px;
 }
 
 ul {
     display: flex;
     flex-direction: row;
+
+    /* align-items: center;
+    text-align: center; */
+    /* justify-content: space-between; */
     font-family: 'Amatic SC', cursive;
     font-size: 80px;
-
 }
 
 #learn {
@@ -24,10 +27,21 @@ ul {
     font-size: 120px;
     text-align: center;
 }
-/* #dragon-age {
+#dragon-age {
     font-size: 50px;
-} */
+}
 
 img {
     height: 400px;
+    align-items: center;
+}
+
+#home {
+    font-family: 'Amatic SC', cursive;
+    font-size: 80px;
+}
+
+#dragon-details {
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
 }
