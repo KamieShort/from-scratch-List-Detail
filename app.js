@@ -1,8 +1,10 @@
 // import functions and grab DOM elements
+import { dragons } from './data.js';
+import { renderDragons } from './renderutils.js';
 
-// let state
+const dragonList = document.getElementById('dragon-list');
 
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
+for (let dragon of dragons) {
+    const li = renderDragons(dragon);
+    dragonList.append(li);
+}
